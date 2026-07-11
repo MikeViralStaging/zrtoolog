@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="419.4 0 320.2 320.2">
+  <circle fill="#FE0000" cx="579.5" cy="160.1" r="160.1"/>
+  <rect fill="#FFFFFF" x="482" y="62.6" width="195.1" height="195.1" transform="translate(56.5 456.7) rotate(-45)"/>
+  <g fill="#000000">
+    <path transform="translate(494.3,110.9)" d="M0,0 H76 V22 L33,72 H76 V94 H0 V72 L43,22 H0 Z"/>
+    <path transform="translate(584.3,110.9)" fill-rule="evenodd" d="M0,0 H54 C72,0 80,10 80,30 C80,46 72,56 56,60 L80,94 H52 L32,62 H22 V94 H0 Z M22,22 H52 C57,22 58,25 58,30 C58,35 57,38 52,38 H22 Z"/>
+  </g>
+</svg>

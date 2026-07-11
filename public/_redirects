@@ -1,0 +1,71 @@
+# ============================================================
+# Z.R. TOOL — legacy URL redirects (301, permanent)
+# Preserves ~25 years of inbound links & search equity from
+# the original zrtool.com structure. Cloudflare Pages format.
+# ============================================================
+
+# --- core pages ---
+/html/index_new.html        /                                        301
+/html/Profile.html          /about/                                  301
+/html/Services.html         /services/                               301
+/html/Distribution.html     /distributors/                           301
+
+# --- tool category pages ---
+/html/Mtools_new.html       /products/manual-sealless-tools/         301
+/html/MTools.html           /products/manual-sealless-tools/         301
+/html/PTools.html           /products/pneumatic-sealless-tools/      301
+
+# --- individual tools ---
+/html/MS25.html             /products/ms25/                          301
+/html/MS31.html             /products/ms31/                          301
+/html/ZL25.html             /products/zl25/                          301
+/html/ZL31.html             /products/zl31/                          301
+/html/ZL90.html             /products/zl90/                          301
+/html/TF25.html             /products/tf25/                          301
+/html/TE31.html             /products/te31/                          301
+/html/TE90.html             /products/te90/                          301
+/html/PS25.html             /products/ps25/                          301
+/html/PS31.html             /products/ps31/                          301
+/html/PS90.html             /products/ps90/                          301
+
+# --- operation manuals (old HTML manuals -> support hub) ---
+/html/MS25Manual.html       /support/                                301
+/html/MS25Manual.htm        /support/                                301
+/html/MS31Manual.html       /support/                                301
+/html/ZL25Manual.html       /support/                                301
+/html/ZL31Manual.html       /support/                                301
+/html/ZL90Manual.html       /support/                                301
+
+# --- machines ---
+/html/Strapping.html                      /machines/                     301
+/html/SeallessMachines_5-8.html           /machines/#sealless-58         301
+/html/SeallessMachines_3-4.html           /machines/#sealless-34         301
+/html/SeallessMachines_1-1-4.html         /machines/#sealless-114        301
+/html/SeallessMachines-1-1-4lock.html     /machines/#sealless-114-lock   301
+/html/SealType-5-8main.html               /machines/#sealtype-58         301
+/html/SealType-3-4main.html               /machines/#sealtype-34         301
+/html/SealType-1-1-4main.html             /machines/#sealtype-114        301
+
+# --- replacement parts ---
+/html/Replacement.html      /parts/                                  301
+/html/Feedwheels.html       /parts/#feedwheels                       301
+/html/Grippers.html         /parts/#grippers                         301
+/html/Knives.html           /parts/#knives                           301
+/html/Miscellaneous.html    /parts/#miscellaneous                    301
+
+# --- old PDFs -> support hub ---
+/html/ms25.pdf              /support/                                301
+/html/ms31.pdf              /support/                                301
+/html/zl25.pdf              /support/                                301
+/html/zl31.pdf              /support/                                301
+/html/zl90.pdf              /support/                                301
+/html/tf25.pdf              /support/                                301
+/html/te31.pdf              /support/                                301
+/html/te90.pdf              /support/                                301
+/html/ps25.pdf              /support/                                301
+/html/ps31.pdf              /support/                                301
+/html/ps90.pdf              /support/                                301
+
+# --- catch-alls ---
+/html/*                     /                                        301
+/resources/*                /services/                               301
